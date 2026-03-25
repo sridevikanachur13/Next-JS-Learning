@@ -13,6 +13,9 @@ export default function HomePage() {
         <a href="/counter" className="text-blue-500 hover:underline">
           Counter
         </a>
+        <a href="/Products" className="text-blue-500 hover:underline">
+          Products
+        </a>
       </nav>
     </div>
   );
