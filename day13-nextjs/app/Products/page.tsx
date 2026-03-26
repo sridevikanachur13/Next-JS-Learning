@@ -11,7 +11,9 @@ interface Product {
   description: string;
 }
 
+// Temporarily add to getProducts() in page.tsx
 async function getProducts(): Promise<Product[]> {
+  // await new Promise((resolve) => setTimeout(resolve, 2000)); // 2s delay
   const res = await fetch("https://fakestoreapi.com/products?limit=8");
   return res.json();
 }

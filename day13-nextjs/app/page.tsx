@@ -16,6 +16,12 @@ export default function HomePage() {
         <a href="/Products" className="text-blue-500 hover:underline">
           Products
         </a>
+        <a href="/dashboard" className="text-blue-500 hover:underline">
+          Dashboard
+        </a>
+        <a href="/time" className="text-blue-500 hover:underline">
+          Time
+        </a>
       </nav>
     </div>
   );
