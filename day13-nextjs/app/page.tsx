@@ -25,6 +25,9 @@ export default function HomePage() {
         <a href="/shop" className="text-blue-500 hover:underline">
           Shop
         </a>
+        <a href="/github" className="text-blue-500 hover:underline">
+          GitHub Search
+        </a>
       </nav>
     </div>
   );
